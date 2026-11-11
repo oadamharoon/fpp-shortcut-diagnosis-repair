@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the two papers below."
+title: "Shape-Prior Shortcuts in Single-Shot Fringe Projection Profilometry"
+abstract: >-
+  Code for diagnosing and repairing shape-prior reliance in long-range
+  single-shot fringe projection profilometry.
+authors:
+  - family-names: Haroon
+    given-names: Adam
+  - family-names: Fleming
+    given-names: Cody
+  - family-names: Li
+    given-names: Beiwen
+license: MIT
+preferred-citation:
+  type: article
+  title: >-
+    Diagnosing Shape-Prior Shortcuts in Long-Range Single-Shot Fringe
+    Projection Profilometry
+  authors:
+    - family-names: Haroon
+      given-names: Adam
+    - family-names: Lakshman
+      given-names: Anush
+    - family-names: Fleming
+      given-names: Cody
+    - family-names: Li
+      given-names: Beiwen
+  journal: "arXiv preprint arXiv:2606.17093"
+  year: 2026
+  url: "https://arxiv.org/abs/2606.17093"

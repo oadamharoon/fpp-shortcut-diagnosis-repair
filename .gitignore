@@ -1,0 +1,24 @@
+# Trained weights and run artifacts are published separately (see README).
+checkpoints_*/
+logs_*/
+visualizations_*/
+depth_pred_*/
+uq_cache/
+uq_figures/
+ablation_results/
+
+# Dataset (downloaded, see README)
+training_datasets/
+fpp_synthetic_dataset/
+
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+.venv/
+
+# Cluster / scheduler output
+*.out
+*.err
+*.log
+slurm-*

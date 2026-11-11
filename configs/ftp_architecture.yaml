@@ -1,0 +1,20 @@
+T_p: 36
+K_max: 32
+scale_factor: 1.446
+phase_offset: 2.9
+image_resolution:
+- 960
+- 960
+projector_resolution:
+- 1140
+- 912
+expected_carrier_frequency:
+  fu0: -21
+  fv0: 0
+  camera_space_period: 45.714285714285715
+calibration_dir: ${FPPML_ROOT}/calibration_matrices
+n_phase_steps: 18
+n_graycode_patterns: 7
+phase_formula: delta = 2*pi/N*(i-2)+pi for i=1..N; phi=-atan2(S,C)
+graycode_threshold: mean of sinusoidal frames
+graycode_bit_order: LSB first (A_18=bit0, A_24=bit6)
